@@ -55,7 +55,7 @@ function EyeDungeon({darkMode ,language}:{darkMode:boolean,language:Languages}){
           <a 
           target="_blank"
             className={`${darkMode ? "dark" : ""} font-bold text-2xl mr-6 text-neutral-900 dark:text-neutral-200`}
-            href="https://youtu.be/4q0LcGIBOkQ">
+            href="https://www.youtube.com/watch?v=PuHCaP0AnjM">
             {getText(language,"gameplay")}</a>
         </div>
 
@@ -431,11 +431,15 @@ function Shaders({darkMode ,language}:{darkMode:boolean,language:Languages}){
             className={`${darkMode ? "dark" : ""} font-bold text-2xl mr-6 text-neutral-900 dark:text-neutral-200`}
             href="https://github.com/KainoaGardner/shaderDisplay">
             {getText(language,"github")}</a>
-          <a 
-          target="_blank"
-            className={`${darkMode ? "dark" : ""} font-bold text-2xl mr-6 text-neutral-900 dark:text-neutral-200`}
-            href="https://shaders.kainoagardner.xyz">
-            {getText(language,"link")}</a>
+          {/* <a  */}
+          {/* target="_blank" */}
+          {/*   className={`${darkMode ? "dark" : ""} font-bold text-2xl mr-6 text-neutral-900 dark:text-neutral-200`} */}
+          {/*   href="https://shaders.kainoagardner.xyz"> */}
+          {/*   {getText(language,"link")}</a> */}
+          <p
+            className={`${darkMode ? "dark" : ""} font-bold text-2xl mr-6 text-red-700 dark:text-red-400`}>
+            {getText(language,"down")}</p>
+
 
         </div>
       </div>
