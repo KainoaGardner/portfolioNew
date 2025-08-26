@@ -49,7 +49,7 @@ function Settings() {
   return (
     <>
       <div 
-        className={`${darkMode ? "dark" : ""} flex justify-between p-5 bg-neutral-100 dark:bg-neutral-800 w-full bottom-0 fixed `}>
+        className={`${darkMode ? "dark" : ""} flex justify-between p-5 bg-neutral-100 dark:bg-neutral-800 w-300 bottom-0 fixed`}>
 
         <div>
           <button className={`${darkMode ? "dark" : ""} font-bold mr-10 p-3 rounded-2xl text-2xl text-black dark:text-white bg-neutral-300 dark:bg-stone-600`}

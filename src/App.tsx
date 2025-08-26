@@ -11,14 +11,14 @@ function App() {
 
   return (
     <>
-      <div className={`${darkMode ? "dark" : ""} p-10 flex flex-col items-start bg-neutral-300 dark:bg-neutral-900 scale-75 origin-top-left`}>
+      <div className={`${darkMode ? "dark" : ""} p-10 flex flex-col items-center bg-neutral-300 dark:bg-neutral-900 scale-75 origin-top`}>
         <section id="about"><About/></section>
         <section id="experience"><Experience/></section>
         <section id="projects"><Projects/></section>
         <section id="education"><Education/></section>
         <section id="other"><Other/></section>
       </div>
-      <div className="">
+      <div className="flex justify-center bg-neutral-300 dark:bg-neutral-900">
         <Settings/>
       </div>
 
