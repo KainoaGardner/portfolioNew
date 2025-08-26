@@ -452,7 +452,7 @@ function Shaders({darkMode ,language}:{darkMode:boolean,language:Languages}){
 
         <a 
           target="_blank"
-          href="https://github.com/KainoaGardner/shaderDisplay">
+          href="https://shaders.kainoagardner.xyz">
         <img 
           className="w-40 h-40 object-cover"
           src="/images/shaders.png" alt="Shaders" />

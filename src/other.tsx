@@ -6,7 +6,7 @@ function Other() {
 
   return (
     <>
-      <div className="flex flex-col justify-between mt-5 mb-20 p-10 bg-neutral-100 dark:bg-neutral-800 rounded-2xl w-400">
+      <div className="flex flex-col justify-between mt-5 mb-30 p-10 bg-neutral-100 dark:bg-neutral-800 rounded-2xl w-400">
          <h1
            className={`${darkMode ? "dark" : ""} font-bold text-6xl mb-6 text-black dark:text-white`}
            >{getText(language,"other")}</h1>

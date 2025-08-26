@@ -11,16 +11,17 @@ function App() {
 
   return (
     <>
-      <div>
-        <Settings/>
-      </div>
-      <div className={`${darkMode ? "dark" : ""} p-10 flex flex-col items-start bg-neutral-300 dark:bg-neutral-900`}>
+      <div className={`${darkMode ? "dark" : ""} p-10 flex flex-col items-start bg-neutral-300 dark:bg-neutral-900 scale-75 origin-top-left`}>
         <section id="about"><About/></section>
         <section id="experience"><Experience/></section>
         <section id="projects"><Projects/></section>
         <section id="education"><Education/></section>
         <section id="other"><Other/></section>
       </div>
+      <div className="">
+        <Settings/>
+      </div>
+
     </>
   )
 }
