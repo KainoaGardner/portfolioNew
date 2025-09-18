@@ -14,6 +14,7 @@ function Experience() {
 
 
         <div className={`${darkMode ? "dark" : ""} flex flex-col items-center`}>
+        <TreePlenish darkMode={darkMode} language={language}/>
         <CoderSchool darkMode={darkMode} language={language}/>
         </div>
 
@@ -22,17 +23,63 @@ function Experience() {
   )
 }
 
+function TreePlenish({darkMode ,language}:{darkMode:boolean,language:Languages}){
+  return <>
+    <div className="flex justify-between w-full my-5 p-5 bg-neutral-300 dark:bg-stone-600 rounded-2xl">
+      <div className="flex flex-col flex-1 justify-between">
+        <div>
+          <h2 className={`${darkMode ? "dark" : ""} font-bold text-5xl mb-2 text-black dark:text-white`}
+          >{getText(language,"treePlenishTitle")}</h2>
+          <h2 className={`${darkMode ? "dark" : ""} font-bold text-3xl mb-2 text-950 dark:text-neutral-100`}
+          >{getText(language,"treePlenish")}</h2>
+        </div>
+        <div>
+           <p
+             className={`${darkMode ? "dark" : ""} text-2xl mb-2 text-neutral-900 dark:text-neutral-200`}
+           >{getText(language,"treePlenishText")}</p>
+        </div>
+      </div>
+
+      <div className="flex">
+        <div className="flex flex-wrap">
+        <img 
+          className="w-13 h-13 mx-2"
+          src="/images/python.png" alt="python" />
+        <img 
+          className="w-13 h-13 mx-2"
+          src="/images/postgresql.png" alt="postgresql" />
+        <img 
+          className="w-13 h-13 mx-2"
+          src="/images/docker.svg" alt="docker" />
+        <img 
+          className="w-13 h-13 mx-2"
+          src="/images/aws.svg" alt="aws" />
+
+        </div>
+
+        <img 
+          className="w-40 h-40 object-cover"
+          src="/images/treePlenish.jpg" alt="tree plenish" />
+      </div>
+
+
+    </div>
+  </>
+
+}
+
 function CoderSchool({darkMode ,language}:{darkMode:boolean,language:Languages}){
   return <>
     <div className="flex justify-between w-full my-5 p-5 bg-neutral-300 dark:bg-stone-600 rounded-2xl">
       <div className="flex flex-col flex-1 justify-between">
         <div>
-         <h2
-           className={`${darkMode ? "dark" : ""} font-bold text-5xl mb-2 text-black dark:text-white`}
-           >{getText(language,"coderSchool")}</h2>
            <h2
-             className={`${darkMode ? "dark" : ""} font-bold text-2xl mb-2 text-950 dark:text-neutral-100`}
+             className={`${darkMode ? "dark" : ""} font-bold text-5xl mb-2 text-950 dark:text-neutral-100`}
            >{getText(language,"coderSchoolTitle")}</h2>
+
+         <h2
+           className={`${darkMode ? "dark" : ""} font-bold text-3xl mb-2 text-black dark:text-white`}
+           >{getText(language,"coderSchool")}</h2>
         </div>
         <div>
            <p

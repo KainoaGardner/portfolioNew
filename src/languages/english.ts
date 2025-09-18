@@ -18,6 +18,12 @@ enText.set("resume", "Resume")
 //experience
 enText.set("experience", "Experience")
 
+//treePlenish
+enText.set("treePlenish", "Tree-Plenish")
+enText.set("treePlenishTitle", "Technology Lead")
+enText.set("treePlenishText", "Refactored tree order dashboards, managed centralized SQL database tracking event information and tree orders. Automated communcation systems and event website creation.")
+
+
 //coderSchool
 enText.set("coderSchool", "The Coder School")
 enText.set("coderSchoolTitle", "Coding and Game Development Coach")

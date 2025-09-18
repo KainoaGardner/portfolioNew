@@ -15,10 +15,13 @@ jaText.set("location", "カリフォルニア州 サクラメント")
 jaText.set("resume", "履歴書")
 
 
-
-
 //experience
 jaText.set("experience", "経験")
+
+//treePlenish
+jaText.set("treePlenish", "Tree-Plenish")
+jaText.set("treePlenishTitle", "テクノロジーリード")
+jaText.set("treePlenishText", "植樹注文用ダッシュボードをリファクタリングし、イベント情報や植樹注文を管理する集中型SQLデータベースを運用。通信システムとイベントサイトの作成を自動化しました。")
 
 //coderSchool
 jaText.set("coderSchool", "ザー・コーダー・スクール")
