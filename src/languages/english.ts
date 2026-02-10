@@ -18,18 +18,24 @@ enText.set("resume", "Resume")
 //experience
 enText.set("experience", "Experience")
 
+//forrio
+enText.set("forrio", "forrio")
+enText.set("forrioDate", "May 2026 - Aug 2026")
+enText.set("forrioTitle", "Full-Stack Engineering Intern")
+enText.set("forrioText", "")
+
 //treePlenish
 enText.set("treePlenish", "Tree-Plenish")
+enText.set("treePlenishDate", "Sep 2025 - May 2026")
 enText.set("treePlenishTitle", "Technology Lead")
 enText.set("treePlenishText", "Refactored tree order dashboards, managed centralized SQL database tracking event information and tree orders. Automated communcation systems and event website creation.")
 
 
 //coderSchool
 enText.set("coderSchool", "The Coder School")
+enText.set("coderSchoolDate", "Oct 2024 - Aug 2025")
 enText.set("coderSchoolTitle", "Coding and Game Development Coach")
 enText.set("coderSchoolText", "Helped dozens of kids from ages 7-18 create games they wanted to make.")
-
-
 
 
 //projects
@@ -63,6 +69,11 @@ enText.set("jugglingDesc", "Juggling game where you have to keep the balls in th
 enText.set("spaceBulletHell", "3D Space Bullet Hell (WIP)")
 enText.set("spaceBulletHellDesc", "3D space bullet hell boss rush game with many different ships and weapons for unique playstyles.")
 
+//tabletopMahjong
+enText.set("tabletopMahjong", "3D Multiplayer Tabletop Mahjong (WIP)")
+enText.set("tabletopMahjongDesc", "")
+
+
 //shaders
 enText.set("shaders", "Shader Website")
 enText.set("shadersDesc", "Site of some cool shaders I've made.")
@@ -90,3 +101,9 @@ enText.set("sacStateText", "Currently attending.")
 
 //other
 enText.set("other", "Other")
+
+
+//jlpt
+enText.set("jlpt", "JLPT Japanese-Language Proficiency Test")
+enText.set("jlptTitle", "N1 (CEFR C1)")
+enText.set("jlptText", "Passed the highest level of the Japanese-Language Proficiency Test (N1) with high score equaling the CERF C1 level.")

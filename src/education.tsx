@@ -7,14 +7,14 @@ function Education() {
 
   return (
     <>
-      <div className="flex flex-col justify-between mt-5 p-10 bg-neutral-100 dark:bg-neutral-800 rounded-2xl w-400">
+      <div className="flex flex-col justify-between mt-5 p-10 bg-neutral-100 dark:bg-neutral-800 rounded-2xl">
          <h1
            className={`${darkMode ? "dark" : ""} font-bold text-6xl mb-6 text-black dark:text-white`}
            >{getText(language,"education")}</h1>
 
         <div className={`${darkMode ? "dark" : ""} flex flex-col items-center`}>
-        <SierraCollege darkMode={darkMode} language={language}/>
-        <SacState darkMode={darkMode} language={language}/>
+          <SacState darkMode={darkMode} language={language}/>
+          <SierraCollege darkMode={darkMode} language={language}/>
         </div>
 
       </div>
@@ -38,7 +38,7 @@ function SierraCollege({darkMode ,language}:{darkMode:boolean,language:Languages
       </div>
 
       <img 
-        className="w-40 h-40"
+        className="w-50 h-50"
         src="/images/sierracollege.png" alt="Sierra College" />
     </div>
   </>
@@ -60,7 +60,7 @@ function SacState({darkMode ,language}:{darkMode:boolean,language:Languages}){
       </div>
 
       <img 
-        className="w-40 h-40"
+        className="w-50 h-50"
         src="/images/sacstate.png" alt="Sac State" />
     </div>
   </>

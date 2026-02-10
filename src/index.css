@@ -2,7 +2,6 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-
 html,
 #root{
   max-height: 50vh;
@@ -10,9 +9,23 @@ html,
 
 body {
   background-color: oklch(87% 0 0); 
+  overflow-x: hidden;
 }
 
 body.dark {
   background-color: oklch(20.5% 0 0);
+}
+
+
+#appScale {
+  --scale: 0.7;
+
+  transform: scale(var(--scale));
+  transform-origin: top left;
+
+  width: calc(100vw / var(--scale));
+  min-height: calc(100vh / var(--scale));
+
+  overflow: hidden;
 }
 

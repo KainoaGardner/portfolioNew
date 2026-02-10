@@ -6,7 +6,7 @@ function About() {
 
   return (
     <>
-      <div className="flex justify-between p-10 bg-neutral-100 dark:bg-neutral-800 rounded-2xl w-400">
+      <div className="flex justify-between p-10 bg-neutral-100 dark:bg-neutral-800 rounded-2xl">
         <div className="flex flex-col justify-between">
           <div>
             <h1
